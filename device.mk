@@ -47,8 +47,8 @@ PRODUCT_PACKAGES += \
     vendor.oneplus.hardware.display@1.0
 
 # Permissions
-PRODUCT_COPY_FILES += \
-     vendor/potato/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+#PRODUCT_COPY_FILES += \
+#    vendor/potato/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
